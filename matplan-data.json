@@ -1,7 +1,7 @@
 {
   "type": "matplan-snapshot",
   "version": 1,
-  "publishedAt": 1782246949524,
+  "publishedAt": 1782248658067,
   "app": {
     "teams": [
       {
@@ -384,20 +384,6 @@
           "max": 190
         },
         "rating": "1",
-        "notes": "",
-        "lastModified": 1782094871163
-      },
-      {
-        "id": "w_mqol9v23ls9kz",
-        "teamId": "team_mqol9v23v0y9k",
-        "name": "Wiley Koch",
-        "grade": 12,
-        "weight": {
-          "type": "range",
-          "min": 215,
-          "max": 215
-        },
-        "rating": "4",
         "notes": "",
         "lastModified": 1782094871163
       },
