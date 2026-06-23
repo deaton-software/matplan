@@ -228,12 +228,18 @@ tbody tr:hover { background: rgba(255, 255, 255, .02); }
 .rating-badge { font-family: var(--font-mono); font-weight: 700; font-size: .72rem; padding: 2px 7px; border-radius: 5px; border: 1px solid; }
 
 .tier-1.rating-select, .tier-1.rating-chip, .tier-1.rating-badge { background: rgba(107, 114, 128, .18); color: #9aa0aa; border-color: #6b7280; }
+.tier-15.rating-select, .tier-15.rating-chip, .tier-15.rating-badge { background: rgba(99, 120, 140, .18); color: #9fb0c1; border-color: #637888; }
 .tier-2.rating-select, .tier-2.rating-chip, .tier-2.rating-badge { background: rgba(90, 126, 152, .18); color: #8eadc6; border-color: #5a7e98; }
+.tier-25.rating-select, .tier-25.rating-chip, .tier-25.rating-badge { background: rgba(60, 142, 150, .18); color: #6fbac1; border-color: #3c8e96; }
 .tier-3.rating-select, .tier-3.rating-chip, .tier-3.rating-badge { background: rgba(29, 158, 147, .18); color: #57c2b5; border-color: #1d9e93; }
-.tier-4.rating-select, .tier-4.rating-chip, .tier-4.rating-badge { background: rgba(91, 168, 60, .18); color: #8fd06a; border-color: #5ba83c; }
+.tier-35.rating-select, .tier-35.rating-chip, .tier-35.rating-badge { background: rgba(60, 163, 104, .18); color: #74c79b; border-color: #3ca368; }
+.tier-4.rating-select, .tier-4.rating-chip, .tier-4.rating-badge { background: rgba(158, 153, 53, .18); color: #c8c277; border-color: #9e9935; }
+.tier-45.rating-select, .tier-45.rating-chip, .tier-45.rating-badge { background: rgba(91, 168, 60, .18); color: #8fd06a; border-color: #5ba83c; }
 .tier-5.rating-select, .tier-5.rating-chip, .tier-5.rating-badge { background: rgba(224, 138, 46, .18); color: #f0ad57; border-color: #e08a2e; }
+.tier-55.rating-select, .tier-55.rating-chip, .tier-55.rating-badge { background: rgba(214, 101, 52, .18); color: #e89a73; border-color: #d66534; }
 .tier-6.rating-select, .tier-6.rating-chip, .tier-6.rating-badge { background: rgba(204, 63, 58, .18); color: #e8807b; border-color: #cc3f3a; }
 .tier-na.rating-select, .tier-na.rating-chip, .tier-na.rating-badge { background: rgba(74, 82, 96, .25); color: var(--text-dim); border-color: var(--line); }
+.rating-mini { font-size: .66rem; font-weight: 700; padding: 1px 6px; border-radius: 4px; min-width: 0; }
 
 /* ---- Paste & review modal ---- */
 .overlay { position: fixed; inset: 0; background: rgba(8, 10, 14, .7); display: none; align-items: center; justify-content: center; z-index: 50; padding: 20px; }

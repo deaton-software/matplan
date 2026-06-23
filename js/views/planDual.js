@@ -10,8 +10,12 @@ window.MP = window.MP || {};
 
   function metaChips(w) {
     if (!w) return '';
+    // Rating is editable right here too (it's one shared field): changing it updates
+    // this wrestler everywhere and recolors live. Tolerate informal ratings like "4?".
+    var ratingVals = MP.RATINGS.indexOf(String(w.rating)) >= 0 ? MP.RATINGS : MP.RATINGS.concat([String(w.rating)]);
     return '<span class="grade-chip">Gr ' + MP.escape(w.grade) + '</span>' +
-      '<span class="rating-chip ' + MP.tierClass(w.rating) + '">' + MP.escape(w.rating) + '</span>';
+      '<select class="rating-select rating-mini ' + MP.tierClass(w.rating) + '" data-drating="' + w.id + '">' +
+        MP.options(ratingVals, w.rating) + '</select>';
   }
 
   // Options for one slot: "— none —" plus every eligible (non-scratched) wrestler,
@@ -136,6 +140,12 @@ window.MP = window.MP || {};
         var wt = b.getAttribute('data-star');
         var pick = sc.picks[wt] || {};
         S.setPick(dualId, d.activeScenarioId, wt, 'key', !pick.key);
+        paint(root, dualId);
+      });
+    });
+    root.querySelectorAll('select[data-drating]').forEach(function (sel) {
+      sel.addEventListener('change', function () {
+        S.updateWrestler(sel.getAttribute('data-drating'), { rating: sel.value });
         paint(root, dualId);
       });
     });

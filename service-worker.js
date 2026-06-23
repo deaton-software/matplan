@@ -1,7 +1,7 @@
 /* Mat Plan service worker — offline-first app shell (spec §9).
    Precaches local files; runtime-caches everything else (incl. Google Fonts)
    so the app is fully usable with zero connectivity after the first load. */
-var CACHE = 'matplan-v14';
+var CACHE = 'matplan-v15';
 var SHELL = [
   './',
   './index.html',

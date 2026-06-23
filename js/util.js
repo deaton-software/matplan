@@ -44,20 +44,19 @@ window.MP = window.MP || {};
     return (prefix || 'id') + '_' + Date.now().toString(36) + Math.random().toString(36).slice(2, 7);
   };
 
-  // Map a rating value to a tier bucket 1–6 (or 'na'), matching the mockup color groupings:
-  // 1 | 1.5–2 | 2.5–3 | 3.5–4 | 4.5–5 | 5.5–6. Tolerant of informal text like "4?".
+  // Map a rating to a color-tier token used in CSS class names. Every half-step gets
+  // its own color, so the token is the rating with the dot stripped: 1→'1', 1.5→'15',
+  // 4.5→'45', up to '6' (plus 'na'). Snaps to the nearest 0.5 and clamps to 1–6 so
+  // informal text like "4?" still lands on a sensible tier.
   MP.tierForRating = function (r) {
     if (r === undefined || r === null) return 'na';
     var s = String(r).trim();
     if (s === '' || s === '?') return 'na';
     var n = parseFloat(s);
     if (isNaN(n)) return 'na';
-    if (n <= 1) return 1;
-    if (n <= 2) return 2;
-    if (n <= 3) return 3;
-    if (n <= 4) return 4;
-    if (n <= 5) return 5;
-    return 6;
+    n = Math.round(n * 2) / 2;
+    if (n < 1) n = 1; else if (n > 6) n = 6;
+    return String(n).replace('.', '');
   };
 
   MP.tierClass = function (r) { return 'tier-' + MP.tierForRating(r); };
