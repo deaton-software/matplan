@@ -10,7 +10,7 @@ window.MP = window.MP || {};
   // --- Repo config (public repo; GitHub Pages serves the app from it) ---
   var OWNER  = 'deaton-software';
   var REPO   = 'matplan';
-  var BRANCH = 'main';
+  var BRANCH = 'data';   // published data lives on its own branch; 'main' stays code-only
   var PATH   = 'matplan-data.json';
   var API = 'https://api.github.com/repos/' + OWNER + '/' + REPO + '/contents/' + PATH;
 
