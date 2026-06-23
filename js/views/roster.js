@@ -115,11 +115,11 @@ window.MP = window.MP || {};
 
         '<div class="legend">' +
           '<span><i style="background:#6b7280"></i>1 — Low/mid JV</span>' +
-          '<span><i style="background:#5b8a72"></i>2 — Strong JV</span>' +
-          '<span><i style="background:#3d7ab5"></i>3 — Varsity</span>' +
-          '<span><i style="background:#4f9e6b"></i>4 — State qualifier</span>' +
-          '<span><i style="background:#cf8a2e"></i>5 — State placer</span>' +
-          '<span><i style="background:#b5403b"></i>6 — State champ</span>' +
+          '<span><i style="background:#5a7e98"></i>2 — Strong JV</span>' +
+          '<span><i style="background:#1d9e93"></i>3 — Varsity</span>' +
+          '<span><i style="background:#5ba83c"></i>4 — State qualifier</span>' +
+          '<span><i style="background:#e08a2e"></i>5 — State placer</span>' +
+          '<span><i style="background:#cc3f3a"></i>6 — State champ</span>' +
           '<span><i style="background:#4a5260"></i>? — Insufficient data</span>' +
         '</div>' +
         '<p class="note">Tap any cell to edit — changes save automatically and update this wrestler everywhere they appear (lineups included). Confirmed weigh-in classes are locked; tap “reopen” to widen back to a range.</p>' +

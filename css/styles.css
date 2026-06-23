@@ -228,11 +228,11 @@ tbody tr:hover { background: rgba(255, 255, 255, .02); }
 .rating-badge { font-family: var(--font-mono); font-weight: 700; font-size: .72rem; padding: 2px 7px; border-radius: 5px; border: 1px solid; }
 
 .tier-1.rating-select, .tier-1.rating-chip, .tier-1.rating-badge { background: rgba(107, 114, 128, .18); color: #9aa0aa; border-color: #6b7280; }
-.tier-2.rating-select, .tier-2.rating-chip, .tier-2.rating-badge { background: rgba(91, 138, 114, .18); color: #7fb799; border-color: #5b8a72; }
-.tier-3.rating-select, .tier-3.rating-chip, .tier-3.rating-badge { background: rgba(61, 122, 181, .18); color: #6fb0e6; border-color: #3d7ab5; }
-.tier-4.rating-select, .tier-4.rating-chip, .tier-4.rating-badge { background: rgba(79, 158, 107, .18); color: #7fcf9c; border-color: #4f9e6b; }
-.tier-5.rating-select, .tier-5.rating-chip, .tier-5.rating-badge { background: rgba(207, 138, 46, .18); color: #e8ab4f; border-color: #cf8a2e; }
-.tier-6.rating-select, .tier-6.rating-chip, .tier-6.rating-badge { background: rgba(181, 64, 59, .18); color: #e07d77; border-color: #b5403b; }
+.tier-2.rating-select, .tier-2.rating-chip, .tier-2.rating-badge { background: rgba(90, 126, 152, .18); color: #8eadc6; border-color: #5a7e98; }
+.tier-3.rating-select, .tier-3.rating-chip, .tier-3.rating-badge { background: rgba(29, 158, 147, .18); color: #57c2b5; border-color: #1d9e93; }
+.tier-4.rating-select, .tier-4.rating-chip, .tier-4.rating-badge { background: rgba(91, 168, 60, .18); color: #8fd06a; border-color: #5ba83c; }
+.tier-5.rating-select, .tier-5.rating-chip, .tier-5.rating-badge { background: rgba(224, 138, 46, .18); color: #f0ad57; border-color: #e08a2e; }
+.tier-6.rating-select, .tier-6.rating-chip, .tier-6.rating-badge { background: rgba(204, 63, 58, .18); color: #e8807b; border-color: #cc3f3a; }
 .tier-na.rating-select, .tier-na.rating-chip, .tier-na.rating-badge { background: rgba(74, 82, 96, .25); color: var(--text-dim); border-color: var(--line); }
 
 /* ---- Paste & review modal ---- */
