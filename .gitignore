@@ -2,6 +2,9 @@
 # Publish flow via the GitHub API, never committed from a local working copy.
 matplan-data.json
 
+# Per-machine Claude Code settings — rewritten as permissions change; not shared.
+.claude/settings.local.json
+
 # Local archives / OS cruft
 *.zip
 .DS_Store
