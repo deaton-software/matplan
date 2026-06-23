@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(unzip -l files.zip)",
+      "Bash(unzip -o files.zip)",
+      "PowerShell(& \"C:\\\\Users\\\\david\\\\Claude\\\\Projects\\\\Claude Wrestling\\\\tools\\\\xlsx-dump.ps1\" -Xlsx $x -Sheet \"sheet3.xml\" -MaxCols 20)",
+      "PowerShell(& \"C:\\\\Users\\\\david\\\\Claude\\\\Projects\\\\Claude Wrestling\\\\tools\\\\xlsx-dump.ps1\" -Xlsx $x -Sheet \"sheet11.xml\" -MaxCols 8 -MaxRows 40)",
+      "PowerShell($x = \"C:\\\\Users\\\\david\\\\OneDrive\\\\Documents\\\\Wrestling Scouting.xlsx\")",
+      "PowerShell(Start-Process powershell -ArgumentList '-NoProfile','-ExecutionPolicy','Bypass','-File','tools/serve.ps1','-Port','8182','-Root','C:\\\\Users\\\\david\\\\Claude\\\\Projects\\\\Claude Wrestling\\\\preview' -WorkingDirectory 'C:\\\\Users\\\\david\\\\Claude\\\\Projects\\\\Claude Wrestling' -WindowStyle Hidden; Start-Sleep -Milliseconds 800; try { \\(Invoke-WebRequest 'http://localhost:8182/index.html' -UseBasicParsing -TimeoutSec 5\\).StatusCode } catch { $_.Exception.Message })",
+      "PowerShell(try { $r = Invoke-WebRequest 'http://localhost:8182/index.html' -UseBasicParsing -TimeoutSec 8; \"OK $\\($r.StatusCode\\) bytes=$\\($r.RawContentLength\\)\" } catch { \"ERR: $\\($_.Exception.Message\\)\" }; Get-NetTCPConnection -LocalPort 8182 -State Listen -ErrorAction SilentlyContinue | Select-Object -First 1 LocalAddress,LocalPort,State)",
+      "PowerShell($procs = Get-CimInstance Win32_Process -Filter \"Name='powershell.exe'\" | Where-Object { $_.CommandLine -match 'serve\\\\.ps1' -and $_.CommandLine -match '8182' }; if \\($procs\\) { $procs | ForEach-Object { \"Killing PID $\\($_.ProcessId\\)\"; Stop-Process -Id $_.ProcessId -Force } } else { \"no serve.ps1 8182 process found\" }; \"--- remaining serve.ps1 processes ---\"; Get-CimInstance Win32_Process -Filter \"Name='powershell.exe'\" | Where-Object { $_.CommandLine -match 'serve\\\\.ps1' } | Select-Object ProcessId, @{n='Port';e={ if\\($_.CommandLine -match '-Port\\\\s+\\(\\\\d+\\)'\\){$matches[1]} }} | Format-Table -AutoSize | Out-String)",
+      "mcp__Claude_Preview__preview_start"
+    ]
+  }
+}
