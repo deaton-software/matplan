@@ -1,0 +1,1554 @@
+{
+  "type": "matplan-snapshot",
+  "version": 1,
+  "publishedAt": 1782246042731,
+  "app": {
+    "teams": [
+      {
+        "id": "team_mqq236uafx8rg",
+        "name": "Wesleyan",
+        "isOurs": true,
+        "createdAt": 1782183579490
+      },
+      {
+        "id": "team_mqq236uabyfbf",
+        "name": "Mt. Pisgah",
+        "isOurs": false,
+        "createdAt": 1782183579490
+      },
+      {
+        "id": "team_mqq236uabqagh",
+        "name": "Mount Vernon",
+        "isOurs": false,
+        "createdAt": 1782183579490
+      },
+      {
+        "id": "team_mqq236uafjpsn",
+        "name": "Fellowship",
+        "isOurs": false,
+        "createdAt": 1782183579490
+      },
+      {
+        "id": "team_mqq236uaeofzx",
+        "name": "St. Francis",
+        "isOurs": false,
+        "createdAt": 1782183579490
+      }
+    ],
+    "wrestlers": [
+      {
+        "id": "w_mqq236ua3eqnf",
+        "teamId": "team_mqq236uafx8rg",
+        "name": "Max Harvey",
+        "grade": 9,
+        "weight": {
+          "type": "range",
+          "min": 106,
+          "max": 106
+        },
+        "rating": "2",
+        "notes": "",
+        "lastModified": 1782185250461,
+        "out": false
+      },
+      {
+        "id": "w_mqq236uaoynsl",
+        "teamId": "team_mqq236uafx8rg",
+        "name": "Hampton Hene",
+        "grade": 9,
+        "weight": {
+          "type": "range",
+          "min": 113,
+          "max": 113
+        },
+        "rating": "2",
+        "notes": "",
+        "lastModified": 1782185251960
+      },
+      {
+        "id": "w_mqq236uaohe8m",
+        "teamId": "team_mqq236uafx8rg",
+        "name": "Langston Merritt",
+        "grade": 9,
+        "weight": {
+          "type": "confirmed",
+          "class": 113
+        },
+        "rating": "3.5",
+        "notes": "",
+        "lastModified": 1782183592088,
+        "prevRange": {
+          "min": 113,
+          "max": 113
+        }
+      },
+      {
+        "id": "w_mqq236ua0y9cy",
+        "teamId": "team_mqq236uafx8rg",
+        "name": "Zachary Wargo",
+        "grade": 9,
+        "weight": {
+          "type": "range",
+          "min": 120,
+          "max": 120
+        },
+        "rating": "1",
+        "notes": "",
+        "lastModified": 1782183677676,
+        "out": false
+      },
+      {
+        "id": "w_mqq236uau5bo9",
+        "teamId": "team_mqq236uafx8rg",
+        "name": "Ben Adkins",
+        "grade": 9,
+        "weight": {
+          "type": "confirmed",
+          "class": 126
+        },
+        "rating": "2",
+        "notes": "",
+        "lastModified": 1782183599061,
+        "prevRange": {
+          "min": 120,
+          "max": 120
+        }
+      },
+      {
+        "id": "w_mqq236ua9aofl",
+        "teamId": "team_mqq236uafx8rg",
+        "name": "Ethan Vaughn",
+        "grade": 9,
+        "weight": {
+          "type": "confirmed",
+          "class": 126
+        },
+        "rating": "2.5",
+        "notes": "",
+        "lastModified": 1782183603321,
+        "prevRange": {
+          "min": 126,
+          "max": 126
+        }
+      },
+      {
+        "id": "w_mqq236ua8nzsh",
+        "teamId": "team_mqq236uafx8rg",
+        "name": "Will Jacobs",
+        "grade": 9,
+        "weight": {
+          "type": "confirmed",
+          "class": 126
+        },
+        "rating": "1",
+        "notes": "",
+        "lastModified": 1782183608446,
+        "prevRange": {
+          "min": 126,
+          "max": 126
+        }
+      },
+      {
+        "id": "w_mqq236uaira4l",
+        "teamId": "team_mqq236uafx8rg",
+        "name": "Benjamin Maxwell",
+        "grade": 10,
+        "weight": {
+          "type": "confirmed",
+          "class": 132
+        },
+        "rating": "?",
+        "notes": "",
+        "lastModified": 1782183614360,
+        "prevRange": {
+          "min": 132,
+          "max": 132
+        }
+      },
+      {
+        "id": "w_mqq236uablsp5",
+        "teamId": "team_mqq236uafx8rg",
+        "name": "Kellen Taylor",
+        "grade": 9,
+        "weight": {
+          "type": "confirmed",
+          "class": 132
+        },
+        "rating": "1.5",
+        "notes": "",
+        "lastModified": 1782183613677,
+        "prevRange": {
+          "min": 132,
+          "max": 132
+        }
+      },
+      {
+        "id": "w_mqq236uafjs3y",
+        "teamId": "team_mqq236uafx8rg",
+        "name": "Sawyer Seebeck",
+        "grade": 9,
+        "weight": {
+          "type": "confirmed",
+          "class": 132
+        },
+        "rating": "5.5",
+        "notes": "",
+        "lastModified": 1782183611209,
+        "prevRange": {
+          "min": 132,
+          "max": 132
+        }
+      },
+      {
+        "id": "w_mqq236ua3352c",
+        "teamId": "team_mqq236uafx8rg",
+        "name": "Daylen Knight",
+        "grade": 9,
+        "weight": {
+          "type": "confirmed",
+          "class": 138
+        },
+        "rating": "2.5",
+        "notes": "",
+        "lastModified": 1782183614944,
+        "prevRange": {
+          "min": 138,
+          "max": 138
+        }
+      },
+      {
+        "id": "w_mqq236uaa5lco",
+        "teamId": "team_mqq236uafx8rg",
+        "name": "James Devlin",
+        "grade": 9,
+        "weight": {
+          "type": "confirmed",
+          "class": 138
+        },
+        "rating": "1",
+        "notes": "",
+        "lastModified": 1782183607730,
+        "prevRange": {
+          "min": 126,
+          "max": 126
+        }
+      },
+      {
+        "id": "w_mqq236uaft7fp",
+        "teamId": "team_mqq236uafx8rg",
+        "name": "Wesley Wu",
+        "grade": 9,
+        "weight": {
+          "type": "confirmed",
+          "class": 144
+        },
+        "rating": "3",
+        "notes": "",
+        "lastModified": 1782183615544,
+        "prevRange": {
+          "min": 144,
+          "max": 144
+        }
+      },
+      {
+        "id": "w_mqq236ualarv9",
+        "teamId": "team_mqq236uafx8rg",
+        "name": "David Eaton",
+        "grade": 12,
+        "weight": {
+          "type": "confirmed",
+          "class": 150
+        },
+        "rating": "5",
+        "notes": "",
+        "lastModified": 1782183616003,
+        "prevRange": {
+          "min": 150,
+          "max": 150
+        }
+      },
+      {
+        "id": "w_mqq236uadebsr",
+        "teamId": "team_mqq236uafx8rg",
+        "name": "Ethan Devarapalli",
+        "grade": 10,
+        "weight": {
+          "type": "confirmed",
+          "class": 150
+        },
+        "rating": "2",
+        "notes": "",
+        "lastModified": 1782183617525,
+        "prevRange": {
+          "min": 150,
+          "max": 150
+        }
+      },
+      {
+        "id": "w_mqq236ua50mbb",
+        "teamId": "team_mqq236uafx8rg",
+        "name": "Winston Wu",
+        "grade": 12,
+        "weight": {
+          "type": "confirmed",
+          "class": 157
+        },
+        "rating": "5",
+        "notes": "",
+        "lastModified": 1782183618433,
+        "prevRange": {
+          "min": 157,
+          "max": 157
+        }
+      },
+      {
+        "id": "w_mqq236uazfoh3",
+        "teamId": "team_mqq236uafx8rg",
+        "name": "Kayleb Virani",
+        "grade": 9,
+        "weight": {
+          "type": "confirmed",
+          "class": 157
+        },
+        "rating": "1",
+        "notes": "",
+        "lastModified": 1782183617999,
+        "prevRange": {
+          "min": 157,
+          "max": 157
+        }
+      },
+      {
+        "id": "w_mqq236ua7oet2",
+        "teamId": "team_mqq236uafx8rg",
+        "name": "Seb Hart",
+        "grade": 11,
+        "weight": {
+          "type": "confirmed",
+          "class": 165
+        },
+        "rating": "2.5",
+        "notes": "",
+        "lastModified": 1782183620288,
+        "prevRange": {
+          "min": 165,
+          "max": 165
+        }
+      },
+      {
+        "id": "w_mqq236uai9naz",
+        "teamId": "team_mqq236uafx8rg",
+        "name": "Caleb Shim",
+        "grade": 9,
+        "weight": {
+          "type": "confirmed",
+          "class": 165
+        },
+        "rating": "2",
+        "notes": "",
+        "lastModified": 1782183679954,
+        "prevRange": {
+          "min": 165,
+          "max": 165
+        },
+        "out": false
+      },
+      {
+        "id": "w_mqq236uaijqob",
+        "teamId": "team_mqq236uafx8rg",
+        "name": "CJ Gentner",
+        "grade": 12,
+        "weight": {
+          "type": "confirmed",
+          "class": 175
+        },
+        "rating": "2",
+        "notes": "",
+        "lastModified": 1782183621700,
+        "prevRange": {
+          "min": 175,
+          "max": 175
+        }
+      },
+      {
+        "id": "w_mqq236ua9soay",
+        "teamId": "team_mqq236uafx8rg",
+        "name": "Matthew Noble",
+        "grade": 12,
+        "weight": {
+          "type": "confirmed",
+          "class": 175
+        },
+        "rating": "2.5",
+        "notes": "",
+        "lastModified": 1782183622399,
+        "prevRange": {
+          "min": 175,
+          "max": 175
+        }
+      },
+      {
+        "id": "w_mqq236ua01y0w",
+        "teamId": "team_mqq236uafx8rg",
+        "name": "Jackson Stone",
+        "grade": 9,
+        "weight": {
+          "type": "confirmed",
+          "class": 175
+        },
+        "rating": "?",
+        "notes": "",
+        "lastModified": 1782183620736,
+        "prevRange": {
+          "min": 175,
+          "max": 175
+        }
+      },
+      {
+        "id": "w_mqq236uaddmrf",
+        "teamId": "team_mqq236uafx8rg",
+        "name": "Cooper Leeming",
+        "grade": 11,
+        "weight": {
+          "type": "confirmed",
+          "class": 190
+        },
+        "rating": "3.5",
+        "notes": "",
+        "lastModified": 1782183624203,
+        "prevRange": {
+          "min": 190,
+          "max": 190
+        }
+      },
+      {
+        "id": "w_mqq236uac2jso",
+        "teamId": "team_mqq236uafx8rg",
+        "name": "JD Masters",
+        "grade": 9,
+        "weight": {
+          "type": "confirmed",
+          "class": 190
+        },
+        "rating": "?",
+        "notes": "",
+        "lastModified": 1782183622887,
+        "prevRange": {
+          "min": 190,
+          "max": 190
+        }
+      },
+      {
+        "id": "w_mqq236uayw0v4",
+        "teamId": "team_mqq236uafx8rg",
+        "name": "Jesus Carlin",
+        "grade": 9,
+        "weight": {
+          "type": "confirmed",
+          "class": 190
+        },
+        "rating": "1",
+        "notes": "",
+        "lastModified": 1782183624787,
+        "prevRange": {
+          "min": 190,
+          "max": 190
+        }
+      },
+      {
+        "id": "w_mqq236ua47ric",
+        "teamId": "team_mqq236uafx8rg",
+        "name": "Wiley Koch",
+        "grade": 12,
+        "weight": {
+          "type": "confirmed",
+          "class": 215
+        },
+        "rating": "4",
+        "notes": "",
+        "lastModified": 1782183625287,
+        "prevRange": {
+          "min": 215,
+          "max": 215
+        }
+      },
+      {
+        "id": "w_mqq236ua363ps",
+        "teamId": "team_mqq236uafx8rg",
+        "name": "Jason Chung",
+        "grade": 10,
+        "weight": {
+          "type": "confirmed",
+          "class": 215
+        },
+        "rating": "3.5",
+        "notes": "",
+        "lastModified": 1782183625766,
+        "prevRange": {
+          "min": 215,
+          "max": 215
+        }
+      },
+      {
+        "id": "w_mqq236uabossd",
+        "teamId": "team_mqq236uafx8rg",
+        "name": "Daniel Kang",
+        "grade": 12,
+        "weight": {
+          "type": "confirmed",
+          "class": 285
+        },
+        "rating": "1",
+        "notes": "",
+        "lastModified": 1782183626293,
+        "prevRange": {
+          "min": 285,
+          "max": 285
+        }
+      },
+      {
+        "id": "w_mqq236uabp22z",
+        "teamId": "team_mqq236uafx8rg",
+        "name": "Aiden Chang",
+        "grade": 10,
+        "weight": {
+          "type": "confirmed",
+          "class": 285
+        },
+        "rating": "1",
+        "notes": "",
+        "lastModified": 1782183626766,
+        "prevRange": {
+          "min": 285,
+          "max": 285
+        }
+      },
+      {
+        "id": "w_mqq236ualewkg",
+        "teamId": "team_mqq236uabyfbf",
+        "name": "Wyndell Drury",
+        "grade": 11,
+        "weight": {
+          "type": "range",
+          "min": 106,
+          "max": 106
+        },
+        "rating": "4.5",
+        "notes": "",
+        "lastModified": 1782183579490
+      },
+      {
+        "id": "w_mqq236uaz9iw8",
+        "teamId": "team_mqq236uabyfbf",
+        "name": "Brice Rasberry",
+        "grade": 11,
+        "weight": {
+          "type": "range",
+          "min": 113,
+          "max": 113
+        },
+        "rating": "5.5",
+        "notes": "",
+        "lastModified": 1782183579490
+      },
+      {
+        "id": "w_mqq236uangqoj",
+        "teamId": "team_mqq236uabyfbf",
+        "name": "Clifton Davis",
+        "grade": 9,
+        "weight": {
+          "type": "range",
+          "min": 113,
+          "max": 113
+        },
+        "rating": "1.5",
+        "notes": "",
+        "lastModified": 1782183579490
+      },
+      {
+        "id": "w_mqq236uasweti",
+        "teamId": "team_mqq236uabyfbf",
+        "name": "Timothy Hedrick",
+        "grade": 10,
+        "weight": {
+          "type": "range",
+          "min": 126,
+          "max": 126
+        },
+        "rating": "1.5",
+        "notes": "",
+        "lastModified": 1782183579490
+      },
+      {
+        "id": "w_mqq236ua80ns3",
+        "teamId": "team_mqq236uabyfbf",
+        "name": "Pierre Nelson",
+        "grade": 12,
+        "weight": {
+          "type": "range",
+          "min": 126,
+          "max": 126
+        },
+        "rating": "6",
+        "notes": "",
+        "lastModified": 1782183579490
+      },
+      {
+        "id": "w_mqq236uakdh7j",
+        "teamId": "team_mqq236uabyfbf",
+        "name": "Philip Holloway",
+        "grade": 9,
+        "weight": {
+          "type": "range",
+          "min": 138,
+          "max": 138
+        },
+        "rating": "2",
+        "notes": "",
+        "lastModified": 1782183579490
+      },
+      {
+        "id": "w_mqq236ua2k8l2",
+        "teamId": "team_mqq236uabyfbf",
+        "name": "Blake Faunce",
+        "grade": 12,
+        "weight": {
+          "type": "range",
+          "min": 144,
+          "max": 144
+        },
+        "rating": "2",
+        "notes": "",
+        "lastModified": 1782183579490
+      },
+      {
+        "id": "w_mqq236uanvxfi",
+        "teamId": "team_mqq236uabyfbf",
+        "name": "Noah Bellue",
+        "grade": 11,
+        "weight": {
+          "type": "range",
+          "min": 144,
+          "max": 144
+        },
+        "rating": "4?",
+        "notes": "",
+        "lastModified": 1782183579490
+      },
+      {
+        "id": "w_mqq236uabs18k",
+        "teamId": "team_mqq236uabyfbf",
+        "name": "Jacob Harvey",
+        "grade": 10,
+        "weight": {
+          "type": "range",
+          "min": 150,
+          "max": 150
+        },
+        "rating": "2.5",
+        "notes": "",
+        "lastModified": 1782183579490
+      },
+      {
+        "id": "w_mqq236uak43f0",
+        "teamId": "team_mqq236uabyfbf",
+        "name": "Evan Eskew",
+        "grade": 11,
+        "weight": {
+          "type": "range",
+          "min": 150,
+          "max": 150
+        },
+        "rating": "1.5",
+        "notes": "",
+        "lastModified": 1782183579490
+      },
+      {
+        "id": "w_mqq236uat9z9k",
+        "teamId": "team_mqq236uabyfbf",
+        "name": "DJ Rogers",
+        "grade": 11,
+        "weight": {
+          "type": "range",
+          "min": 157,
+          "max": 157
+        },
+        "rating": "3.5",
+        "notes": "",
+        "lastModified": 1782183579490
+      },
+      {
+        "id": "w_mqq236uagtf7q",
+        "teamId": "team_mqq236uabyfbf",
+        "name": "Christian Lange",
+        "grade": 12,
+        "weight": {
+          "type": "range",
+          "min": 165,
+          "max": 165
+        },
+        "rating": "5.5",
+        "notes": "",
+        "lastModified": 1782183579490
+      },
+      {
+        "id": "w_mqq236ualzwdq",
+        "teamId": "team_mqq236uabyfbf",
+        "name": "JP Pickren",
+        "grade": 12,
+        "weight": {
+          "type": "range",
+          "min": 165,
+          "max": 165
+        },
+        "rating": "3.5",
+        "notes": "",
+        "lastModified": 1782183579490
+      },
+      {
+        "id": "w_mqq236uaolegi",
+        "teamId": "team_mqq236uabyfbf",
+        "name": "Austin Stack",
+        "grade": 9,
+        "weight": {
+          "type": "range",
+          "min": 190,
+          "max": 190
+        },
+        "rating": "1.5",
+        "notes": "",
+        "lastModified": 1782183579490
+      },
+      {
+        "id": "w_mqq236uarzljg",
+        "teamId": "team_mqq236uabyfbf",
+        "name": "Steele Brown",
+        "grade": 12,
+        "weight": {
+          "type": "range",
+          "min": 190,
+          "max": 190
+        },
+        "rating": "6",
+        "notes": "",
+        "lastModified": 1782183579490
+      },
+      {
+        "id": "w_mqq236uatfjn3",
+        "teamId": "team_mqq236uabyfbf",
+        "name": "Finn Ingalls",
+        "grade": 9,
+        "weight": {
+          "type": "range",
+          "min": 285,
+          "max": 285
+        },
+        "rating": "1.5",
+        "notes": "",
+        "lastModified": 1782183579490
+      },
+      {
+        "id": "w_mqq236ua5ept1",
+        "teamId": "team_mqq236uabyfbf",
+        "name": "Jake Ingalls",
+        "grade": 12,
+        "weight": {
+          "type": "range",
+          "min": 285,
+          "max": 285
+        },
+        "rating": "2.5",
+        "notes": "",
+        "lastModified": 1782183579490
+      },
+      {
+        "id": "w_mqq236uazp8c1",
+        "teamId": "team_mqq236uabqagh",
+        "name": "Lewis Walker",
+        "grade": 9,
+        "weight": {
+          "type": "range",
+          "min": 106,
+          "max": 106
+        },
+        "rating": "?",
+        "notes": "",
+        "lastModified": 1782183579490
+      },
+      {
+        "id": "w_mqq236ua1p0qq",
+        "teamId": "team_mqq236uabqagh",
+        "name": "Henry Wood",
+        "grade": 9,
+        "weight": {
+          "type": "range",
+          "min": 113,
+          "max": 113
+        },
+        "rating": "?",
+        "notes": "",
+        "lastModified": 1782183579490
+      },
+      {
+        "id": "w_mqq236uamubd2",
+        "teamId": "team_mqq236uabqagh",
+        "name": "Benjamin Easterlin",
+        "grade": 12,
+        "weight": {
+          "type": "range",
+          "min": 113,
+          "max": 113
+        },
+        "rating": "4.5",
+        "notes": "",
+        "lastModified": 1782183579490
+      },
+      {
+        "id": "w_mqq236ualzb79",
+        "teamId": "team_mqq236uabqagh",
+        "name": "Gavin Straley",
+        "grade": 9,
+        "weight": {
+          "type": "range",
+          "min": 120,
+          "max": 120
+        },
+        "rating": "?",
+        "notes": "",
+        "lastModified": 1782183579490
+      },
+      {
+        "id": "w_mqq236uafk55x",
+        "teamId": "team_mqq236uabqagh",
+        "name": "William Killgore",
+        "grade": 9,
+        "weight": {
+          "type": "range",
+          "min": 132,
+          "max": 132
+        },
+        "rating": "?",
+        "notes": "",
+        "lastModified": 1782183579490
+      },
+      {
+        "id": "w_mqq236uasljtq",
+        "teamId": "team_mqq236uabqagh",
+        "name": "Jalen Hagans",
+        "grade": 11,
+        "weight": {
+          "type": "range",
+          "min": 138,
+          "max": 138
+        },
+        "rating": "?",
+        "notes": "",
+        "lastModified": 1782183579490
+      },
+      {
+        "id": "w_mqq236ua9tol4",
+        "teamId": "team_mqq236uabqagh",
+        "name": "Hugh Floyd",
+        "grade": 9,
+        "weight": {
+          "type": "range",
+          "min": 138,
+          "max": 138
+        },
+        "rating": "?",
+        "notes": "",
+        "lastModified": 1782183579490
+      },
+      {
+        "id": "w_mqq236uamtg8p",
+        "teamId": "team_mqq236uabqagh",
+        "name": "Matthew Falcone",
+        "grade": 12,
+        "weight": {
+          "type": "range",
+          "min": 138,
+          "max": 138
+        },
+        "rating": "2.5",
+        "notes": "",
+        "lastModified": 1782183579490
+      },
+      {
+        "id": "w_mqq236ua2s4ot",
+        "teamId": "team_mqq236uabqagh",
+        "name": "Pace Lilenfield",
+        "grade": 12,
+        "weight": {
+          "type": "range",
+          "min": 144,
+          "max": 144
+        },
+        "rating": "6",
+        "notes": "",
+        "lastModified": 1782183579490
+      },
+      {
+        "id": "w_mqq236uar1whx",
+        "teamId": "team_mqq236uabqagh",
+        "name": "Carter Alewine",
+        "grade": 12,
+        "weight": {
+          "type": "range",
+          "min": 144,
+          "max": 144
+        },
+        "rating": "2.5",
+        "notes": "",
+        "lastModified": 1782183579490
+      },
+      {
+        "id": "w_mqq236uay9erc",
+        "teamId": "team_mqq236uabqagh",
+        "name": "Gunnar Ehrlich",
+        "grade": 9,
+        "weight": {
+          "type": "range",
+          "min": 144,
+          "max": 144
+        },
+        "rating": "?",
+        "notes": "",
+        "lastModified": 1782183579490
+      },
+      {
+        "id": "w_mqq236ua371l5",
+        "teamId": "team_mqq236uabqagh",
+        "name": "Nico Oldland",
+        "grade": 12,
+        "weight": {
+          "type": "range",
+          "min": 144,
+          "max": 144
+        },
+        "rating": "2.5",
+        "notes": "",
+        "lastModified": 1782183579490
+      },
+      {
+        "id": "w_mqq236uaulzkp",
+        "teamId": "team_mqq236uabqagh",
+        "name": "Henry Irvin",
+        "grade": 10,
+        "weight": {
+          "type": "range",
+          "min": 150,
+          "max": 150
+        },
+        "rating": "?",
+        "notes": "",
+        "lastModified": 1782183579490
+      },
+      {
+        "id": "w_mqq236uado2eo",
+        "teamId": "team_mqq236uabqagh",
+        "name": "Alec Fahlbusch",
+        "grade": 12,
+        "weight": {
+          "type": "range",
+          "min": 157,
+          "max": 157
+        },
+        "rating": "4",
+        "notes": "",
+        "lastModified": 1782183579490
+      },
+      {
+        "id": "w_mqq236uah6dhi",
+        "teamId": "team_mqq236uabqagh",
+        "name": "Dustin Kytle",
+        "grade": 12,
+        "weight": {
+          "type": "range",
+          "min": 157,
+          "max": 157
+        },
+        "rating": "?",
+        "notes": "",
+        "lastModified": 1782183579490
+      },
+      {
+        "id": "w_mqq236ua3iemv",
+        "teamId": "team_mqq236uabqagh",
+        "name": "Brennan Maher",
+        "grade": 12,
+        "weight": {
+          "type": "range",
+          "min": 157,
+          "max": 157
+        },
+        "rating": "?",
+        "notes": "",
+        "lastModified": 1782183579490
+      },
+      {
+        "id": "w_mqq236uaq7dhd",
+        "teamId": "team_mqq236uabqagh",
+        "name": "Keon Clealand",
+        "grade": 11,
+        "weight": {
+          "type": "range",
+          "min": 165,
+          "max": 165
+        },
+        "rating": "5",
+        "notes": "",
+        "lastModified": 1782183579490
+      },
+      {
+        "id": "w_mqq236uaanogz",
+        "teamId": "team_mqq236uabqagh",
+        "name": "Tur Nico",
+        "grade": 12,
+        "weight": {
+          "type": "range",
+          "min": 165,
+          "max": 165
+        },
+        "rating": "?",
+        "notes": "",
+        "lastModified": 1782183579490
+      },
+      {
+        "id": "w_mqq236uac898j",
+        "teamId": "team_mqq236uabqagh",
+        "name": "Noah Dungan",
+        "grade": 9,
+        "weight": {
+          "type": "range",
+          "min": 190,
+          "max": 190
+        },
+        "rating": "?",
+        "notes": "",
+        "lastModified": 1782183579490
+      },
+      {
+        "id": "w_mqq236ua72bi5",
+        "teamId": "team_mqq236uabqagh",
+        "name": "Dylan Rosenthal",
+        "grade": 11,
+        "weight": {
+          "type": "range",
+          "min": 215,
+          "max": 215
+        },
+        "rating": "2",
+        "notes": "",
+        "lastModified": 1782183579490
+      },
+      {
+        "id": "w_mqq236uam7uip",
+        "teamId": "team_mqq236uabqagh",
+        "name": "Graham Schwalb",
+        "grade": 11,
+        "weight": {
+          "type": "range",
+          "min": 215,
+          "max": 215
+        },
+        "rating": "2.5",
+        "notes": "",
+        "lastModified": 1782183579490
+      },
+      {
+        "id": "w_mqq236uauygbi",
+        "teamId": "team_mqq236uabqagh",
+        "name": "Tobias Fernadez",
+        "grade": 11,
+        "weight": {
+          "type": "range",
+          "min": 285,
+          "max": 285
+        },
+        "rating": "?",
+        "notes": "",
+        "lastModified": 1782183579490
+      },
+      {
+        "id": "w_mqq236uasd9bw",
+        "teamId": "team_mqq236uabqagh",
+        "name": "Chip Fahlbusch",
+        "grade": 12,
+        "weight": {
+          "type": "range",
+          "min": 150,
+          "max": 150
+        },
+        "rating": "5",
+        "notes": "",
+        "lastModified": 1782183579490
+      },
+      {
+        "id": "w_mqq236uaf2jar",
+        "teamId": "team_mqq236uabqagh",
+        "name": "Wendell Olden",
+        "grade": 10,
+        "weight": {
+          "type": "range",
+          "min": 157,
+          "max": 157
+        },
+        "rating": "?",
+        "notes": "",
+        "lastModified": 1782183579490
+      },
+      {
+        "id": "w_mqq236uaa450e",
+        "teamId": "team_mqq236uabqagh",
+        "name": "Donald Boose",
+        "grade": 11,
+        "weight": {
+          "type": "range",
+          "min": 165,
+          "max": 165
+        },
+        "rating": "?",
+        "notes": "",
+        "lastModified": 1782183579490
+      },
+      {
+        "id": "w_mqq236ua3e0tj",
+        "teamId": "team_mqq236uafjpsn",
+        "name": "Matthew Gottschalk Jr.",
+        "grade": 11,
+        "weight": {
+          "type": "range",
+          "min": 126,
+          "max": 126
+        },
+        "rating": "4",
+        "notes": "",
+        "lastModified": 1782183579490
+      },
+      {
+        "id": "w_mqq236uaqfgg6",
+        "teamId": "team_mqq236uafjpsn",
+        "name": "Adam Lane",
+        "grade": 10,
+        "weight": {
+          "type": "range",
+          "min": 138,
+          "max": 138
+        },
+        "rating": "?",
+        "notes": "",
+        "lastModified": 1782183579490
+      },
+      {
+        "id": "w_mqq236ua4a9gs",
+        "teamId": "team_mqq236uafjpsn",
+        "name": "JR Rhoden",
+        "grade": 10,
+        "weight": {
+          "type": "range",
+          "min": 138,
+          "max": 138
+        },
+        "rating": "?",
+        "notes": "",
+        "lastModified": 1782183579490
+      },
+      {
+        "id": "w_mqq236uamtmju",
+        "teamId": "team_mqq236uafjpsn",
+        "name": "Sean Thompson",
+        "grade": 12,
+        "weight": {
+          "type": "range",
+          "min": 138,
+          "max": 138
+        },
+        "rating": "?",
+        "notes": "",
+        "lastModified": 1782183579490
+      },
+      {
+        "id": "w_mqq236uauwrql",
+        "teamId": "team_mqq236uafjpsn",
+        "name": "Sean Tanksley",
+        "grade": 10,
+        "weight": {
+          "type": "range",
+          "min": 144,
+          "max": 144
+        },
+        "rating": "?",
+        "notes": "",
+        "lastModified": 1782183579490
+      },
+      {
+        "id": "w_mqq236uaq9u52",
+        "teamId": "team_mqq236uafjpsn",
+        "name": "Luke Hughes",
+        "grade": 10,
+        "weight": {
+          "type": "range",
+          "min": 144,
+          "max": 144
+        },
+        "rating": "5",
+        "notes": "",
+        "lastModified": 1782183579490
+      },
+      {
+        "id": "w_mqq236uafulye",
+        "teamId": "team_mqq236uafjpsn",
+        "name": "Finn Walsh",
+        "grade": 10,
+        "weight": {
+          "type": "range",
+          "min": 150,
+          "max": 150
+        },
+        "rating": "?",
+        "notes": "",
+        "lastModified": 1782183579490
+      },
+      {
+        "id": "w_mqq236ua3rl59",
+        "teamId": "team_mqq236uafjpsn",
+        "name": "Landon Almond",
+        "grade": 10,
+        "weight": {
+          "type": "range",
+          "min": 157,
+          "max": 157
+        },
+        "rating": "3",
+        "notes": "",
+        "lastModified": 1782183579490
+      },
+      {
+        "id": "w_mqq236uaacfhi",
+        "teamId": "team_mqq236uafjpsn",
+        "name": "Levi Lawes",
+        "grade": 11,
+        "weight": {
+          "type": "range",
+          "min": 157,
+          "max": 157
+        },
+        "rating": "4",
+        "notes": "",
+        "lastModified": 1782183579490
+      },
+      {
+        "id": "w_mqq236ua5bqyh",
+        "teamId": "team_mqq236uafjpsn",
+        "name": "Cole Lawes",
+        "grade": 10,
+        "weight": {
+          "type": "range",
+          "min": 165,
+          "max": 165
+        },
+        "rating": "?",
+        "notes": "",
+        "lastModified": 1782183579490
+      },
+      {
+        "id": "w_mqq236uaal9i6",
+        "teamId": "team_mqq236uafjpsn",
+        "name": "Braxton Wludyga",
+        "grade": 11,
+        "weight": {
+          "type": "range",
+          "min": 175,
+          "max": 175
+        },
+        "rating": "2",
+        "notes": "",
+        "lastModified": 1782183579490
+      },
+      {
+        "id": "w_mqq236ua6mdxo",
+        "teamId": "team_mqq236uafjpsn",
+        "name": "Drew Collins",
+        "grade": 12,
+        "weight": {
+          "type": "range",
+          "min": 175,
+          "max": 175
+        },
+        "rating": "4.5",
+        "notes": "",
+        "lastModified": 1782183579490
+      },
+      {
+        "id": "w_mqq236uaz9ent",
+        "teamId": "team_mqq236uafjpsn",
+        "name": "Thomas Ebrect",
+        "grade": 9,
+        "weight": {
+          "type": "range",
+          "min": 190,
+          "max": 190
+        },
+        "rating": "?",
+        "notes": "",
+        "lastModified": 1782183579490
+      },
+      {
+        "id": "w_mqq236ua8vhq9",
+        "teamId": "team_mqq236uaeofzx",
+        "name": "Charlie Dunn",
+        "grade": 11,
+        "weight": {
+          "type": "range",
+          "min": 126,
+          "max": 126
+        },
+        "rating": "2.5",
+        "notes": "",
+        "lastModified": 1782183579490
+      },
+      {
+        "id": "w_mqq236uarg48d",
+        "teamId": "team_mqq236uaeofzx",
+        "name": "Mason Cipriani",
+        "grade": 9,
+        "weight": {
+          "type": "range",
+          "min": 126,
+          "max": 126
+        },
+        "rating": "3",
+        "notes": "",
+        "lastModified": 1782183579490
+      },
+      {
+        "id": "w_mqq236ua5hulz",
+        "teamId": "team_mqq236uaeofzx",
+        "name": "Emmett Delfino",
+        "grade": 9,
+        "weight": {
+          "type": "range",
+          "min": 132,
+          "max": 132
+        },
+        "rating": "?",
+        "notes": "",
+        "lastModified": 1782183579490
+      },
+      {
+        "id": "w_mqq236uarg66p",
+        "teamId": "team_mqq236uaeofzx",
+        "name": "Luke Bendiks",
+        "grade": 11,
+        "weight": {
+          "type": "range",
+          "min": 132,
+          "max": 132
+        },
+        "rating": "?",
+        "notes": "",
+        "lastModified": 1782183579490
+      },
+      {
+        "id": "w_mqq236uavqhg8",
+        "teamId": "team_mqq236uaeofzx",
+        "name": "Vann Bartlett",
+        "grade": 11,
+        "weight": {
+          "type": "range",
+          "min": 138,
+          "max": 138
+        },
+        "rating": "3",
+        "notes": "",
+        "lastModified": 1782183579490
+      },
+      {
+        "id": "w_mqq236uaiz9wt",
+        "teamId": "team_mqq236uaeofzx",
+        "name": "Hayden Mendelsohn",
+        "grade": 10,
+        "weight": {
+          "type": "range",
+          "min": 138,
+          "max": 138
+        },
+        "rating": "?",
+        "notes": "",
+        "lastModified": 1782183579490
+      },
+      {
+        "id": "w_mqq236ua9q3yf",
+        "teamId": "team_mqq236uaeofzx",
+        "name": "Max Kraselsky",
+        "grade": 9,
+        "weight": {
+          "type": "range",
+          "min": 138,
+          "max": 138
+        },
+        "rating": "?",
+        "notes": "",
+        "lastModified": 1782183579490
+      },
+      {
+        "id": "w_mqq236uaw05db",
+        "teamId": "team_mqq236uaeofzx",
+        "name": "Braxton Henderson",
+        "grade": 11,
+        "weight": {
+          "type": "range",
+          "min": 144,
+          "max": 144
+        },
+        "rating": "?",
+        "notes": "",
+        "lastModified": 1782183579490
+      },
+      {
+        "id": "w_mqq236uav2cjr",
+        "teamId": "team_mqq236uaeofzx",
+        "name": "John Scalley",
+        "grade": 9,
+        "weight": {
+          "type": "range",
+          "min": 150,
+          "max": 150
+        },
+        "rating": "?",
+        "notes": "",
+        "lastModified": 1782183579490
+      },
+      {
+        "id": "w_mqq236uar423h",
+        "teamId": "team_mqq236uaeofzx",
+        "name": "Jacob Lubert",
+        "grade": 11,
+        "weight": {
+          "type": "range",
+          "min": 150,
+          "max": 150
+        },
+        "rating": "?",
+        "notes": "",
+        "lastModified": 1782183579490
+      },
+      {
+        "id": "w_mqq236uabkt1g",
+        "teamId": "team_mqq236uaeofzx",
+        "name": "Chase Floyd",
+        "grade": 9,
+        "weight": {
+          "type": "range",
+          "min": 157,
+          "max": 157
+        },
+        "rating": "?",
+        "notes": "",
+        "lastModified": 1782183579490
+      },
+      {
+        "id": "w_mqq236uakto2t",
+        "teamId": "team_mqq236uaeofzx",
+        "name": "Ben Rooker",
+        "grade": 11,
+        "weight": {
+          "type": "range",
+          "min": 157,
+          "max": 157
+        },
+        "rating": "?",
+        "notes": "",
+        "lastModified": 1782183579490
+      },
+      {
+        "id": "w_mqq236uau21ld",
+        "teamId": "team_mqq236uaeofzx",
+        "name": "Cole Margavio",
+        "grade": 11,
+        "weight": {
+          "type": "range",
+          "min": 157,
+          "max": 157
+        },
+        "rating": "3",
+        "notes": "",
+        "lastModified": 1782183579490
+      },
+      {
+        "id": "w_mqq236uao3h99",
+        "teamId": "team_mqq236uaeofzx",
+        "name": "Hudson Lewis",
+        "grade": 11,
+        "weight": {
+          "type": "range",
+          "min": 175,
+          "max": 175
+        },
+        "rating": "?",
+        "notes": "",
+        "lastModified": 1782183579490
+      },
+      {
+        "id": "w_mqq236uafa57v",
+        "teamId": "team_mqq236uaeofzx",
+        "name": "Ridley Williams",
+        "grade": 11,
+        "weight": {
+          "type": "range",
+          "min": 175,
+          "max": 175
+        },
+        "rating": "?",
+        "notes": "",
+        "lastModified": 1782183579490
+      },
+      {
+        "id": "w_mqq236ua0qh2y",
+        "teamId": "team_mqq236uaeofzx",
+        "name": "Asher Williams",
+        "grade": 9,
+        "weight": {
+          "type": "range",
+          "min": 190,
+          "max": 190
+        },
+        "rating": "?",
+        "notes": "",
+        "lastModified": 1782183579490
+      },
+      {
+        "id": "w_mqq236ua9o9j4",
+        "teamId": "team_mqq236uaeofzx",
+        "name": "Micheal Graham",
+        "grade": 12,
+        "weight": {
+          "type": "range",
+          "min": 190,
+          "max": 190
+        },
+        "rating": "2",
+        "notes": "",
+        "lastModified": 1782183579490
+      },
+      {
+        "id": "w_mqq236uahyl9e",
+        "teamId": "team_mqq236uaeofzx",
+        "name": "David Hleap",
+        "grade": 9,
+        "weight": {
+          "type": "range",
+          "min": 285,
+          "max": 285
+        },
+        "rating": "2",
+        "notes": "",
+        "lastModified": 1782183579490
+      }
+    ],
+    "duals": [],
+    "settings": {
+      "ourTeamId": "team_mqq236uafx8rg"
+    }
+  }
+}
