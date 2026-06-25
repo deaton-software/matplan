@@ -1,7 +1,7 @@
 {
   "type": "matplan-snapshot",
   "version": 1,
-  "publishedAt": 1782410974672,
+  "publishedAt": 1782411551849,
   "app": {
     "teams": [
       {
@@ -1395,11 +1395,11 @@
         "weight": {
           "type": "range",
           "min": 106,
-          "max": 106
+          "max": 120
         },
         "rating": "?",
         "notes": "",
-        "lastModified": 1782410175343
+        "lastModified": 1782411061520
       },
       {
         "id": "w_mqtszdkej5eyk",
@@ -1409,11 +1409,11 @@
         "weight": {
           "type": "range",
           "min": 106,
-          "max": 106
+          "max": 120
         },
         "rating": "?",
         "notes": "",
-        "lastModified": 1782410180240
+        "lastModified": 1782411064573
       },
       {
         "id": "w_mqtszen7ouqot",
@@ -1423,11 +1423,11 @@
         "weight": {
           "type": "range",
           "min": 106,
-          "max": 106
+          "max": 120
         },
         "rating": "?",
         "notes": "",
-        "lastModified": 1782410186073
+        "lastModified": 1782411067170
       },
       {
         "id": "w_mqtszes0rkndo",
@@ -1437,11 +1437,11 @@
         "weight": {
           "type": "range",
           "min": 106,
-          "max": 106
+          "max": 120
         },
         "rating": "?",
         "notes": "",
-        "lastModified": 1782410191054
+        "lastModified": 1782411070677
       },
       {
         "id": "w_mqtszex0znm64",
@@ -1451,11 +1451,11 @@
         "weight": {
           "type": "range",
           "min": 106,
-          "max": 106
+          "max": 120
         },
         "rating": "?",
         "notes": "",
-        "lastModified": 1782410196398
+        "lastModified": 1782411073539
       },
       {
         "id": "w_mqtszf21rguv5",
@@ -1464,12 +1464,12 @@
         "grade": 11,
         "weight": {
           "type": "range",
-          "min": 106,
-          "max": 106
+          "min": 113,
+          "max": 126
         },
         "rating": "?",
         "notes": "",
-        "lastModified": 1782410209690
+        "lastModified": 1782411079898
       },
       {
         "id": "w_mqtszf6vjjamk",
@@ -1478,12 +1478,12 @@
         "grade": 9,
         "weight": {
           "type": "range",
-          "min": 106,
-          "max": 106
+          "min": 113,
+          "max": 126
         },
         "rating": "?",
         "notes": "",
-        "lastModified": 1782410214959
+        "lastModified": 1782411088030
       },
       {
         "id": "w_mqtszfd35x8nk",
@@ -1492,12 +1492,12 @@
         "grade": 9,
         "weight": {
           "type": "range",
-          "min": 106,
-          "max": 106
+          "min": 113,
+          "max": 126
         },
         "rating": "?",
         "notes": "",
-        "lastModified": 1782410230957
+        "lastModified": 1782411094468
       },
       {
         "id": "w_mqtt14arut1xs",
@@ -1506,12 +1506,12 @@
         "grade": 9,
         "weight": {
           "type": "range",
-          "min": 106,
-          "max": 106
+          "min": 113,
+          "max": 126
         },
         "rating": "?",
         "notes": "",
-        "lastModified": 1782410242536
+        "lastModified": 1782411099702
       },
       {
         "id": "w_mqtt1528untbf",
@@ -1520,12 +1520,12 @@
         "grade": 10,
         "weight": {
           "type": "range",
-          "min": 106,
-          "max": 106
+          "min": 120,
+          "max": 132
         },
         "rating": "?",
         "notes": "",
-        "lastModified": 1782410251621
+        "lastModified": 1782411112845
       },
       {
         "id": "w_mqtt15fbli4oz",
@@ -1534,12 +1534,12 @@
         "grade": 11,
         "weight": {
           "type": "range",
-          "min": 106,
-          "max": 106
+          "min": 120,
+          "max": 132
         },
         "rating": "?",
         "notes": "",
-        "lastModified": 1782410261359
+        "lastModified": 1782411117291
       },
       {
         "id": "w_mqtt1tyh5bsg0",
@@ -1548,26 +1548,26 @@
         "grade": 11,
         "weight": {
           "type": "range",
-          "min": 106,
-          "max": 106
+          "min": 120,
+          "max": 132
         },
         "rating": "?",
         "notes": "",
-        "lastModified": 1782410288589
+        "lastModified": 1782411154288
       },
       {
         "id": "w_mqtt1vbq7qtu3",
         "teamId": "team_mqtsuu4of7tp6",
-        "name": "Henry Discher",
+        "name": "Henry Fischer",
         "grade": 9,
         "weight": {
           "type": "range",
-          "min": 106,
-          "max": 106
+          "min": 126,
+          "max": 138
         },
         "rating": "?",
         "notes": "",
-        "lastModified": 1782410286240
+        "lastModified": 1782411191364
       },
       {
         "id": "w_mqtt1vmgxvxr8",
@@ -1576,12 +1576,12 @@
         "grade": 11,
         "weight": {
           "type": "range",
-          "min": 106,
-          "max": 106
+          "min": 126,
+          "max": 138
         },
         "rating": "?",
         "notes": "",
-        "lastModified": 1782410352917
+        "lastModified": 1782411197038
       },
       {
         "id": "w_mqtt1vspcp226",
@@ -1590,12 +1590,12 @@
         "grade": 10,
         "weight": {
           "type": "range",
-          "min": 106,
-          "max": 106
+          "min": 126,
+          "max": 138
         },
         "rating": "?",
         "notes": "",
-        "lastModified": 1782410349654
+        "lastModified": 1782411205672
       },
       {
         "id": "w_mqtt1w30slm2s",
@@ -1604,12 +1604,12 @@
         "grade": 10,
         "weight": {
           "type": "range",
-          "min": 106,
-          "max": 106
+          "min": 132,
+          "max": 144
         },
         "rating": "?",
         "notes": "",
-        "lastModified": 1782410346155
+        "lastModified": 1782411214928
       },
       {
         "id": "w_mqtt31jyzdgu9",
@@ -1618,12 +1618,12 @@
         "grade": 12,
         "weight": {
           "type": "range",
-          "min": 106,
-          "max": 106
+          "min": 132,
+          "max": 144
         },
         "rating": "?",
         "notes": "",
-        "lastModified": 1782410341143
+        "lastModified": 1782411219110
       },
       {
         "id": "w_mqtt31ozh6pyc",
@@ -1632,12 +1632,12 @@
         "grade": 11,
         "weight": {
           "type": "range",
-          "min": 106,
-          "max": 106
+          "min": 132,
+          "max": 144
         },
         "rating": "6",
         "notes": "",
-        "lastModified": 1782410372860
+        "lastModified": 1782411230864
       },
       {
         "id": "w_mqtt31tf9hxy2",
@@ -1646,12 +1646,12 @@
         "grade": 11,
         "weight": {
           "type": "range",
-          "min": 106,
-          "max": 106
+          "min": 132,
+          "max": 144
         },
         "rating": "?",
         "notes": "",
-        "lastModified": 1782410380644
+        "lastModified": 1782411243717
       },
       {
         "id": "w_mqtt31xyi104t",
@@ -1660,12 +1660,12 @@
         "grade": 9,
         "weight": {
           "type": "range",
-          "min": 106,
-          "max": 106
+          "min": 138,
+          "max": 150
         },
         "rating": "?",
         "notes": "",
-        "lastModified": 1782410388914
+        "lastModified": 1782411247659
       },
       {
         "id": "w_mqtt3224zlqyt",
@@ -1674,12 +1674,12 @@
         "grade": 12,
         "weight": {
           "type": "range",
-          "min": 106,
-          "max": 106
+          "min": 138,
+          "max": 150
         },
         "rating": "?",
         "notes": "",
-        "lastModified": 1782410400030
+        "lastModified": 1782411254472
       },
       {
         "id": "w_mqtt326k0wi0z",
@@ -1688,12 +1688,12 @@
         "grade": 10,
         "weight": {
           "type": "range",
-          "min": 106,
-          "max": 106
+          "min": 138,
+          "max": 150
         },
         "rating": "?",
         "notes": "",
-        "lastModified": 1782410416313
+        "lastModified": 1782411262675
       },
       {
         "id": "w_mqtt32b7fnmdj",
@@ -1702,12 +1702,12 @@
         "grade": 10,
         "weight": {
           "type": "range",
-          "min": 106,
-          "max": 106
+          "min": 144,
+          "max": 157
         },
         "rating": "?",
         "notes": "",
-        "lastModified": 1782410429008
+        "lastModified": 1782411275458
       },
       {
         "id": "w_mqtt32gqum6d6",
@@ -1716,12 +1716,12 @@
         "grade": 11,
         "weight": {
           "type": "range",
-          "min": 106,
-          "max": 106
+          "min": 144,
+          "max": 157
         },
         "rating": "?",
         "notes": "",
-        "lastModified": 1782410461037
+        "lastModified": 1782411286224
       },
       {
         "id": "w_mqtt32l4angl3",
@@ -1730,12 +1730,12 @@
         "grade": 11,
         "weight": {
           "type": "range",
-          "min": 106,
-          "max": 106
+          "min": 144,
+          "max": 157
         },
         "rating": "?",
         "notes": "",
-        "lastModified": 1782410471423
+        "lastModified": 1782411291020
       },
       {
         "id": "w_mqtt32pzpis3u",
@@ -1744,12 +1744,12 @@
         "grade": 11,
         "weight": {
           "type": "range",
-          "min": 106,
-          "max": 106
+          "min": 144,
+          "max": 157
         },
         "rating": "?",
         "notes": "",
-        "lastModified": 1782410475555
+        "lastModified": 1782411301236
       },
       {
         "id": "w_mqtt32us2armg",
@@ -1758,12 +1758,12 @@
         "grade": 11,
         "weight": {
           "type": "range",
-          "min": 106,
-          "max": 106
+          "min": 144,
+          "max": 157
         },
         "rating": "6",
         "notes": "",
-        "lastModified": 1782410502596
+        "lastModified": 1782411314352
       },
       {
         "id": "w_mqtt32zu86ans",
@@ -1772,12 +1772,12 @@
         "grade": 9,
         "weight": {
           "type": "range",
-          "min": 106,
-          "max": 106
+          "min": 144,
+          "max": 157
         },
         "rating": "?",
         "notes": "",
-        "lastModified": 1782410509245
+        "lastModified": 1782411324976
       },
       {
         "id": "w_mqtt335b0ilmr",
@@ -1786,12 +1786,12 @@
         "grade": 10,
         "weight": {
           "type": "range",
-          "min": 106,
-          "max": 106
+          "min": 150,
+          "max": 165
         },
         "rating": "?",
         "notes": "",
-        "lastModified": 1782410517124
+        "lastModified": 1782411329638
       },
       {
         "id": "w_mqtt79397e9bp",
@@ -1800,12 +1800,12 @@
         "grade": 10,
         "weight": {
           "type": "range",
-          "min": 106,
-          "max": 106
+          "min": 150,
+          "max": 165
         },
         "rating": "?",
         "notes": "",
-        "lastModified": 1782410539752
+        "lastModified": 1782411336290
       },
       {
         "id": "w_mqtt799r2tq3m",
@@ -1814,12 +1814,12 @@
         "grade": 11,
         "weight": {
           "type": "range",
-          "min": 106,
-          "max": 106
+          "min": 150,
+          "max": 165
         },
         "rating": "?",
         "notes": "",
-        "lastModified": 1782410547830
+        "lastModified": 1782411340495
       },
       {
         "id": "w_mqtt79edhmtuz",
@@ -1828,12 +1828,12 @@
         "grade": 9,
         "weight": {
           "type": "range",
-          "min": 106,
-          "max": 106
+          "min": 150,
+          "max": 165
         },
         "rating": "?",
         "notes": "",
-        "lastModified": 1782410552669
+        "lastModified": 1782411346478
       },
       {
         "id": "w_mqtt79j70edja",
@@ -1842,12 +1842,12 @@
         "grade": 12,
         "weight": {
           "type": "range",
-          "min": 106,
-          "max": 106
+          "min": 157,
+          "max": 175
         },
         "rating": "?",
         "notes": "",
-        "lastModified": 1782410564792
+        "lastModified": 1782411362046
       },
       {
         "id": "w_mqtt7bnu2xnpq",
@@ -1856,12 +1856,12 @@
         "grade": 11,
         "weight": {
           "type": "range",
-          "min": 106,
-          "max": 106
+          "min": 157,
+          "max": 175
         },
         "rating": "?",
         "notes": "",
-        "lastModified": 1782410571035
+        "lastModified": 1782411366754
       },
       {
         "id": "w_mqtt7bt4cgjrt",
@@ -1870,12 +1870,12 @@
         "grade": 12,
         "weight": {
           "type": "range",
-          "min": 106,
-          "max": 106
+          "min": 157,
+          "max": 175
         },
         "rating": "?",
         "notes": "",
-        "lastModified": 1782410579541
+        "lastModified": 1782411374753
       },
       {
         "id": "w_mqtt7byj77suj",
@@ -1884,12 +1884,12 @@
         "grade": 10,
         "weight": {
           "type": "range",
-          "min": 106,
-          "max": 106
+          "min": 165,
+          "max": 190
         },
         "rating": "?",
         "notes": "",
-        "lastModified": 1782410595911
+        "lastModified": 1782411392067
       },
       {
         "id": "w_mqtt7c4w83v3n",
@@ -1898,12 +1898,12 @@
         "grade": 11,
         "weight": {
           "type": "range",
-          "min": 106,
-          "max": 106
+          "min": 165,
+          "max": 190
         },
         "rating": "?",
         "notes": "",
-        "lastModified": 1782410607324
+        "lastModified": 1782411398368
       },
       {
         "id": "w_mqtt96pfltkbk",
@@ -1912,12 +1912,12 @@
         "grade": 11,
         "weight": {
           "type": "range",
-          "min": 106,
-          "max": 106
+          "min": 165,
+          "max": 190
         },
         "rating": "?",
         "notes": "",
-        "lastModified": 1782410624940
+        "lastModified": 1782411407988
       },
       {
         "id": "w_mqtt96u3qlvu1",
@@ -2044,6 +2044,20 @@
         "rating": "?",
         "notes": "",
         "lastModified": 1782410708922
+      },
+      {
+        "id": "w_mqttkdzfhrxr2",
+        "teamId": "team_mqtsuu4of7tp6",
+        "name": "Emmett Yates",
+        "grade": 9,
+        "weight": {
+          "type": "range",
+          "min": 120,
+          "max": 132
+        },
+        "rating": "?",
+        "notes": "",
+        "lastModified": 1782411146390
       }
     ],
     "duals": [
