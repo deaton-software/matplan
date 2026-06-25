@@ -242,11 +242,18 @@ window.MP = window.MP || {};
 
   /* ---- Paste & review (spec §11) ---- */
   var staged = [];
+  // Split pasted text into {name, weight} rows. A trailing 2–3 digit number is read
+  // as the weight; everything before it is the name.
+  function parseLines(text) {
+    return String(text || '').split('\n').map(function (l) { return l.trim(); }).filter(Boolean).map(function (line) {
+      var m = line.match(/^(.*\D)\s+(\d{2,3})\s*$/);
+      return m ? { name: m[1].trim(), weight: m[2] } : { name: line, weight: '' };
+    });
+  }
   function pasteModalHTML() {
     return '<div class="overlay" id="pasteOverlay"><div class="modal">' +
       '<h3>Paste roster</h3>' +
       '<p class="hint">Paste names from Trackwrestling or anywhere else, one per line (a trailing number is read as a weight). Review and clean up before committing — nothing saves to the roster automatically.</p>' +
-      '<div class="paste-example">Example — one wrestler per line, weight optional:\nJordan Mackey 138\nTate Whitfield 150\nCole Renner 165</div>' +
       '<textarea id="pasteArea" placeholder="Jordan Mackey 138\nTate Whitfield 150\nCole Renner 165"></textarea>' +
       '<div style="margin-top:10px"><button class="btn" id="parseBtn">Parse lines →</button></div>' +
       '<div class="stage-list" id="stageList"></div>' +
@@ -279,26 +286,22 @@ window.MP = window.MP || {};
   function wirePasteModal(root, teamId) {
     var overlay = root.querySelector('#pasteOverlay');
     function close() { overlay.classList.remove('open'); staged = []; root.querySelector('#pasteArea').value = ''; root.querySelector('#stageList').innerHTML = ''; root.querySelector('#stageCount').textContent = ''; }
-    root.querySelector('#pasteBtn').addEventListener('click', function () {
-      overlay.classList.add('open');
-      var ta = root.querySelector('#pasteArea'); if (ta) ta.focus();
-    });
+    root.querySelector('#pasteBtn').addEventListener('click', function () { overlay.classList.add('open'); });
     root.querySelector('#pasteCancel').addEventListener('click', close);
     overlay.addEventListener('click', function (e) { if (e.target === overlay) close(); });
     root.querySelector('#parseBtn').addEventListener('click', function () {
-      var lines = root.querySelector('#pasteArea').value.split('\n').map(function (l) { return l.trim(); }).filter(Boolean);
-      staged = lines.map(function (line) {
-        var m = line.match(/^(.*\D)\s+(\d{2,3})\s*$/);
-        return m ? { name: m[1].trim(), weight: m[2] } : { name: line, weight: '' };
-      });
+      staged = parseLines(root.querySelector('#pasteArea').value);
       renderStaged(root);
     });
     root.querySelector('#commitBtn').addEventListener('click', function () {
+      // Commit works even if "Parse lines →" was never clicked: parse the textarea now.
+      if (!staged.length) staged = parseLines(root.querySelector('#pasteArea').value);
       staged.forEach(function (s) {
         if (!s.name) return;
         var wt = Number(s.weight) || 106;
         S.addWrestler(teamId, { name: s.name, min: wt, max: wt });
       });
+      filters = { grade: '', weight: '', rating: '' }; // don't let a stray filter hide the new names
       close(); MP.rerender();
     });
   }
