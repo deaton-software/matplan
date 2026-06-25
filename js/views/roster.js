@@ -208,6 +208,25 @@ window.MP = window.MP || {};
       });
     });
 
+    // Keyboard: ↑/↓ move between rows within the same column for fast data entry.
+    // (Selects keep their native arrow behavior so ratings still cycle with arrows.)
+    var rosterBody = root.querySelector('.roster-table tbody');
+    if (rosterBody) rosterBody.addEventListener('keydown', function (e) {
+      if (e.key !== 'ArrowDown' && e.key !== 'ArrowUp') return;
+      var el = e.target;
+      if (!el || el.tagName !== 'INPUT') return;
+      var colSel = el.getAttribute('data-field') ? 'input[data-field="' + el.getAttribute('data-field') + '"]'
+        : el.hasAttribute('data-wmin') ? 'input[data-wmin]'
+        : el.hasAttribute('data-wmax') ? 'input[data-wmax]' : null;
+      if (!colSel) return;
+      var tr = el.closest('tr'); if (!tr) return;
+      var trs = Array.prototype.slice.call(rosterBody.querySelectorAll('tr'));
+      var idx = trs.indexOf(tr) + (e.key === 'ArrowDown' ? 1 : -1);
+      if (idx < 0 || idx >= trs.length) return;
+      var next = trs[idx].querySelector(colSel);
+      if (next) { e.preventDefault(); next.focus(); if (next.select) next.select(); }
+    });
+
     wirePasteModal(root, teamId);
   }
 
@@ -227,6 +246,7 @@ window.MP = window.MP || {};
     return '<div class="overlay" id="pasteOverlay"><div class="modal">' +
       '<h3>Paste roster</h3>' +
       '<p class="hint">Paste names from Trackwrestling or anywhere else, one per line (a trailing number is read as a weight). Review and clean up before committing — nothing saves to the roster automatically.</p>' +
+      '<div class="paste-example">Example — one wrestler per line, weight optional:\nJordan Mackey 138\nTate Whitfield 150\nCole Renner 165</div>' +
       '<textarea id="pasteArea" placeholder="Jordan Mackey 138\nTate Whitfield 150\nCole Renner 165"></textarea>' +
       '<div style="margin-top:10px"><button class="btn" id="parseBtn">Parse lines →</button></div>' +
       '<div class="stage-list" id="stageList"></div>' +
@@ -259,7 +279,10 @@ window.MP = window.MP || {};
   function wirePasteModal(root, teamId) {
     var overlay = root.querySelector('#pasteOverlay');
     function close() { overlay.classList.remove('open'); staged = []; root.querySelector('#pasteArea').value = ''; root.querySelector('#stageList').innerHTML = ''; root.querySelector('#stageCount').textContent = ''; }
-    root.querySelector('#pasteBtn').addEventListener('click', function () { overlay.classList.add('open'); });
+    root.querySelector('#pasteBtn').addEventListener('click', function () {
+      overlay.classList.add('open');
+      var ta = root.querySelector('#pasteArea'); if (ta) ta.focus();
+    });
     root.querySelector('#pasteCancel').addEventListener('click', close);
     overlay.addEventListener('click', function (e) { if (e.target === overlay) close(); });
     root.querySelector('#parseBtn').addEventListener('click', function () {

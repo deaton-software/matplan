@@ -6,6 +6,7 @@
    ========================================================================== */
 
 :root {
+  color-scheme: dark; /* render native controls (dropdown popups, scrollbars) dark */
   --bg: #161b22;
   --surface: #1f2630;
   --surface-raised: #262f3b;
@@ -248,6 +249,7 @@ tbody tr:hover { background: rgba(255, 255, 255, .02); }
 .modal h3 { font-family: var(--font-display); margin: 0 0 4px; font-size: 1.1rem; letter-spacing: .01em; }
 .modal p.hint { color: var(--text-dim); font-size: .82rem; margin: 0 0 14px; line-height: 1.5; }
 .modal textarea { width: 100%; min-height: 110px; background: var(--bg); border: 1px solid var(--line); border-radius: 8px; color: var(--text); font-family: var(--font-mono); font-size: .82rem; padding: 10px; resize: vertical; }
+.paste-example { font-family: var(--font-mono); font-size: .76rem; color: var(--text-dim); background: var(--bg); border: 1px solid var(--line); border-radius: 6px; padding: 8px 10px; margin: 0 0 12px; white-space: pre-line; }
 .stage-list { margin-top: 14px; display: flex; flex-direction: column; gap: 6px; }
 .stage-row { display: flex; align-items: center; gap: 8px; background: var(--surface-raised); border: 1px solid var(--line); border-radius: 7px; padding: 7px 10px; font-size: .85rem; }
 .stage-row input { background: transparent; border: 1px solid transparent; color: var(--text); font-family: var(--font-body); font-size: .85rem; flex: 1; min-width: 60px; border-radius: 4px; padding: 4px 6px; }
