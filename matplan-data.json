@@ -1,7 +1,7 @@
 {
   "type": "matplan-snapshot",
   "version": 1,
-  "publishedAt": 1783091627702,
+  "publishedAt": 1783091674864,
   "app": {
     "teams": [
       {
@@ -45,7 +45,7 @@
       {
         "id": "w_mqol9v2339rn1",
         "teamId": "team_mqol9v23v0y9k",
-        "name": "Test",
+        "name": "Max Harvey",
         "grade": 10,
         "weight": {
           "type": "range",
@@ -54,7 +54,7 @@
         },
         "rating": "2",
         "notes": "",
-        "lastModified": 1783091575355,
+        "lastModified": 1783091670154,
         "out": false
       },
       {
